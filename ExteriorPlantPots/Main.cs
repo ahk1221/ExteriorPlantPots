@@ -32,7 +32,7 @@ namespace ExteriorPlantPots
             constructable.forceUpright = true;
 
             planter.isIndoor = false;
-            planter.environment = Planter.PlantEnvironment.Water;
+            planter.environment = Planter.PlantEnvironment.Dynamic;
 
             techTag.type = techType;
             prefabIdentifer.ClassId = classId;
